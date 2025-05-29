@@ -10,6 +10,6 @@ sequenceDiagram
     server-->>browser: response HTTP 201 Note created
     deactivate server
 
-    Note right of browser: The browser executes the callback function that renders the notes
+    Note right of browser: The browser pushes the new note to the note list that is being displayed
 
 ```
